@@ -26,5 +26,5 @@ jobs:
     - run: npm run build --if-present
     - name: Run tests
       run: |
-        cd studnotion # Move to the root folder
-        npm test # Assuming your tests are in the frontend folder (studnotion)
+        cd studynotion # Move to the frontend folder
+        npm test # Assuming your tests are in the frontend folder (studynotion)
